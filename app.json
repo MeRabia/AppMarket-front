@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MarketApp",
+    "slug": "MarketApp",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/1024.png",
+    "splash": {
+      "image": "./app/assets/logoShop.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "A marketplace for selling anyThing you want anyTime and anyWhere.",
+    "notification": {
+      "iosDisplayInForeground": true
+    }
+  }
+}
